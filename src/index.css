@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* --- Modern Deep Forest & Sage Green Palette --- */
+  --color-emerald-50: #f0f6f3;
+  --color-emerald-100: #ddeae2;
+  --color-emerald-200: #bcd5c7;
+  --color-emerald-300: #91bda6;
+  --color-emerald-400: #629e80;
+  --color-emerald-500: #408162;
+  --color-emerald-600: #1a5c40; /* Majestic Forest Pine */
+  --color-emerald-700: #134631;
+  --color-emerald-800: #0f3626;
+  --color-emerald-900: #0b2a1e;
+  --color-emerald-950: #05160f;
+
+  --color-primary: #1a5c40; /* Forest Green */
+  --color-primary-container: #f0f6f3; /* Sage fog */
+  --color-on-primary-container: #134631; /* Deep forest */
+  --color-secondary: #1a5c40;
+  --color-secondary-container: #f4f4f5; /* Zinc 100 */
+  --color-on-secondary-container: #18181b; /* Zinc 900 */
+  
+  --color-background: #f5f8f6; /* Soft organic off-white with rich linen undertone */
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container: #f4f4f5; /* Zinc 100 */
+
+  /* --- Luxury Smooth & Soft Corners --- */
+  --radius-lg: 1rem;       /* Softened from 0.75rem */
+  --radius-xl: 1.25rem;    /* Softened from 1rem */
+  --radius-2xl: 1.75rem;   /* Softened from 1.5rem */
+  --radius-3xl: 2.25rem;   /* Softened from 1.75rem */
+  
+  --animate-fade-in: fade-in 0.35s ease-out forwards;
+  --animate-scale-up: scale-up 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  --animate-spin-slow: spin 8s linear infinite;
+
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes scale-up {
+    from { opacity: 0; transform: scale(0.94); }
+    to { opacity: 1; transform: scale(1); }
+  }
+}
+
+/* Hide scrollbar for layout tab sliders */
+@utility no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+  }
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: #18181b;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* --- Dark Mode Semantic Overrides --- */
+
+.dark body {
+  background-color: #09090b !important;
+  color: #f4f4f5 !important;
+}
+
+/* Base white cards */
+.dark .bg-white,
+.dark article,
+.dark section,
+.dark div.bg-white,
+.dark form.bg-white {
+  background-color: #18181b !important;
+  border-color: #27272a !important;
+  color: #f4f4f5 !important;
+}
+
+/* Slate backgrounds, helper containers, and input fields */
+.dark .bg-zinc-50,
+.dark .bg-slate-50,
+.dark .bg-zinc-50\/50,
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: #09090b !important;
+  border-color: #27272a !important;
+  color: #e4e4e7 !important;
+}
+
+/* Quick stats SVG doughnut chart */
+.dark svg circle[stroke="#f4f4f5"] {
+  stroke: #27272a !important;
+}
+
+/* Headline titles and high priority text labels */
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark .text-zinc-900,
+.dark .text-zinc-800,
+.dark .text-on-surface {
+  color: #f4f4f5 !important;
+}
+
+/* Body narratives & secondary details */
+.dark p,
+.dark list,
+.dark label,
+.dark span,
+.dark li,
+.dark .text-zinc-500,
+.dark .text-zinc-600,
+.dark .text-zinc-700,
+.dark .text-on-surface-variant {
+  color: #d4d4d8 !important;
+}
+
+/* Low contrast trackers */
+.dark .text-zinc-400 {
+  color: #a1a1aa !important;
+}
+
+/* Sub-borders and grid dividers */
+.dark .border-zinc-200,
+.dark .border-zinc-100,
+.dark .border-zinc-200\/60,
+.dark .border-t,
+.dark .border-b,
+.dark .border-l,
+.dark .border-r,
+.dark .border {
+  border-color: #27272a !important;
+}
+
+/* Dynamic status cards of the fridge */
+.dark .bg-emerald-50,
+.dark .bg-primary-container {
+  background-color: rgba(6, 78, 59, 0.45) !important;
+  border-color: rgba(5, 150, 105, 0.3) !important;
+  color: #a7f3d0 !important;
+}
+
+.dark .text-emerald-700,
+.dark .text-emerald-650,
+.dark .text-emerald-600,
+.dark .text-primary {
+  color: #34d399 !important;
+}
+
+.dark .bg-amber-50,
+.dark .bg-secondary-fixed {
+  background-color: rgba(120, 53, 15, 0.3) !important;
+  border-color: rgba(184, 115, 51, 0.35) !important;
+  color: #fef3c7 !important;
+}
+
+.dark .text-amber-800,
+.dark .text-amber-700 {
+  color: #fbbf24 !important;
+}
+
+.dark .bg-red-50 {
+  background-color: rgba(136, 19, 55, 0.3) !important;
+  border-color: rgba(225, 29, 72, 0.35) !important;
+  color: #ffe4e6 !important;
+}
+
+.dark .text-red-700,
+.dark .text-red-600 {
+  color: #f87171 !important;
+}
+
+/* Ambient dark overlays (Modals backgrounds) */
+.dark .fixed.inset-0.bg-black\/60,
+.dark .fixed.inset-0.bg-zinc-950\/70,
+.dark .fixed.inset-0.bg-black\/50,
+.dark .fixed.inset-0.bg-zinc-950\/60 {
+  background-color: rgba(9, 9, 11, 0.8) !important;
+}
+
+/* Hover list items states in Dark Mode */
+.dark .hover\:bg-zinc-100\/60:hover,
+.dark .hover\:bg-zinc-100:hover,
+.dark .hover\:bg-zinc-50:hover,
+.dark .hover\:bg-neutral-100\/50:hover {
+  background-color: #27272a !important;
+}
+
+.dark .bg-zinc-900 {
+  background-color: #27272a !important;
+  border-color: #3f3f46 !important;
+}
+
+/* Tooltip and badges metadata */
+.dark span.text-emerald-700 {
+  color: #34d399 !important;
+}

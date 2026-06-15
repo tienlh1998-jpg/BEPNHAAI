@@ -1,0 +1,198 @@
+{
+  "ingredients": [
+    {
+      "id": 2,
+      "name": "Organic Eggs",
+      "category": "Dairy",
+      "quantity": "12pk",
+      "expiry_date": "2026-06-15"
+    },
+    {
+      "id": 3,
+      "name": "Baby Spinach",
+      "category": "Produce",
+      "quantity": "200g",
+      "expiry_date": "2026-06-14"
+    },
+    {
+      "id": 4,
+      "name": "Minced Pork",
+      "category": "Meats",
+      "quantity": "500g",
+      "expiry_date": "2026-06-17"
+    },
+    {
+      "id": 5,
+      "name": "Firm Tofu",
+      "category": "Condiments",
+      "quantity": "400g",
+      "expiry_date": "2026-06-16"
+    },
+    {
+      "id": 6,
+      "name": "Trứng Gà Ta",
+      "category": "Dairy",
+      "quantity": "10 quả",
+      "expiry_date": "2026-06-17"
+    },
+    {
+      "id": 7,
+      "name": "Rau Muống Sạch",
+      "category": "Produce",
+      "quantity": "1 bọc",
+      "expiry_date": "2026-06-14"
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Herb Roasted Chicken",
+      "category": "Family Meals",
+      "cooking_time_min": 45,
+      "image_url": "https://lh3.googleusercontent.com/aida-public/AB6AXuBTjDZOeydLSkYgHnhcLFSwgZz4JE9s0iwl_j8dFUd6NZjzxJlxu-p_kctrIIskBqa2Z1TnPaQaA7xIzJrkdLuNFAMwa_bhPJsWs-MHz6z9-V0vlAnqqnWMR7d0pBbJO-TY7A1gv08f4884OSfnkyztZELnUGZC1PKITVFn92ShLCqqdGWLRgjtnui6EE8KB8GoPz7ElKE83qo8XLXpRpVXSqO0-PiieMNLg9VcgmS0Cb5_Ro6iJeaZHGnWGfjxB9XT5gRpJFzzZAY",
+      "instructions": "1. Preheat your oven to 200°C.\n2. Season chicken generously with salt, pepper, olive oil, dried herbs, and lemon.\n3. Roast for 45 minutes until juices run clear and skin is beautifully crisp.",
+      "required_ingredients": [
+        "Whole Milk",
+        "Organic Eggs",
+        "Herb Chicken Spice"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Summer Pasta Primavera",
+      "category": "Family Meals",
+      "cooking_time_min": 25,
+      "image_url": "https://lh3.googleusercontent.com/aida-public/AB6AXuAlu0iktLERR0ggXFh27ISwTBq6ihioEOuf1HnpJYSvU9BDKLzWVbrxDWFLZTbiqNvavu3EcscfA_joPNxVV1GMwu4XOgk3HaAEW46kTe_rbYlBPo4zhKmYdTa1PSgOSebpZDQsC-eIa8TM9rr_wEMBRJ75Ufm0H4S8ENUsF12YjVhNVMPAF53kWv-VIwa4SkOR1zs3YkMl-hRqX-vbSLI5MjhAJK7gBYc00U2r2KR5FfsPUjt7-Fua13jr-PcoN9Dvfw_GtpK5MN8",
+      "instructions": "1. Cook your choice of pasta in salted water.\n2. Sauté baby spinach and fresh garden vegetables in olive oil and minced garlic.\n3. Toss pasta in the vegetables and finish with parmesan and cream.",
+      "required_ingredients": [
+        "Whole Milk",
+        "Baby Spinach",
+        "Firm Tofu",
+        "Pasta"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Spicy Shakshuka",
+      "category": "Family Meals",
+      "cooking_time_min": 30,
+      "image_url": "https://lh3.googleusercontent.com/aida-public/AB6AXuAsdi8GqnD1VT4SlfspkSz40kemJEmiB-wP8ISXJLrg2rm43YqLlcXGY01thvXZKZXxw3u-TzUV7diQ47tx6ubjOacWeeD1IrjdKTPHoOAil_mf4ERlnPQ3ZcAGJjlfFT1hgmjIEVWolu_2bOtQMQHULNAB_GSZISu9UvNcvZqqeyLf01W6eT94Y241X0SRbTvkgpdZsE1JT_Wt4dtVAWsvRKj4sD7Cf9fX0EilYqTMx8DZfZ_5eraxtKgwV49bUxrN0d_85EMlOSI",
+      "instructions": "1. Heat olive oil and sauté onions, bell peppers, garlic and spices.\n2. Pour in canned crushed tomatoes and let simmer for 10 minutes.\n3. Crack eggs directly into the sauce and cook until whites set.",
+      "required_ingredients": [
+        "Organic Eggs",
+        "Tomatoes",
+        "Bell Peppers",
+        "Spicy Paste"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sautéed Garlic Beef with Chillies",
+      "category": "Pub Mates",
+      "cooking_time_min": 15,
+      "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&auto=format&fit=crop&q=60",
+      "instructions": "1. Sauté sliced beef with heavy garlic and red hot chillies.\n2. Add oyster sauce and splash some domestic lager.\n3. Serve immediate with fresh celery.",
+      "required_ingredients": [
+        "Beef Chuck",
+        "Garlic",
+        "Chillies",
+        "Glaze"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Crispy Garlic Tofu Wings",
+      "category": "Pub Mates",
+      "cooking_time_min": 20,
+      "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop&q=60",
+      "instructions": "1. Press and dry firm tofu, then cut into small wing shapes.\n2. Dredge in cornstarch and fry till extra crispy.\n3. Toss in sriracha glaze and sesame.",
+      "required_ingredients": [
+        "Firm Tofu",
+        "Cornstarch",
+        "Sriracha",
+        "Scallions"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Cháo Lòng Đỏ Trứng Và Bí Đỏ",
+      "category": "Baby Weaning",
+      "cooking_time_min": 20,
+      "image_url": "https://images.unsplash.com/photo-1598514982205-f36b96d1e8d4?w=600&auto=format&fit=crop&q=80",
+      "instructions": "1. Ninh gạo tẻ với nước cho chín nhừ thành cháo sánh mịn.\n2. Bí đỏ gọt vỏ, thái lát mỏng rồi hấp chín nhuyễn.\n3. Rây mịn bí đỏ rồi khuấy cùng nồi cháo đang sôi.\n4. Đánh tan lòng đỏ Trứng Gà Ta/Eggs rồi rây từ từ vào cháo, quấy đều tay 3 phút cho chín thơm.",
+      "required_ingredients": [
+        "Organic Eggs",
+        "Bí đỏ"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Súp Nhuyễn Khoai Tây Sữa Láng Mịn",
+      "category": "Baby Weaning",
+      "cooking_time_min": 15,
+      "image_url": "https://images.unsplash.com/photo-1547592180-85f173990554?w=600&auto=format&fit=crop&q=80",
+      "instructions": "1. Khoai tây gọt vỏ sạch, hấp cách thủy cho chín mềm thơm phức.\n2. Dùng thìa hoặc mát nghiền nghiền thật mịn khoai tây.\n3. Đổ sữa tươi Whole Milk ấm vào phần khoai nghiền khuấy đều cho sánh nhuyễn.\n4. Rây lại hỗn hợp một lần nữa qua lưới lọc để súp láng mịn.",
+      "required_ingredients": [
+        "Whole Milk",
+        "Khoai tây"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Bột Heo Xay Nhuyễn Rau Chân Vịt",
+      "category": "Baby Weaning",
+      "cooking_time_min": 25,
+      "image_url": "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=600&auto=format&fit=crop&q=80",
+      "instructions": "1. Thịt heo dăm băm nhuyễn mịn rồi xay kỹ cùng chút nước cho tan tơi.\n2. Rau chân vịt luộc chín ráo nước rồi xay nhuyễn vắt nước lọc bã mịn.\n3. Nấu bột gạo chín mềm sánh, trút thịt heo vào quấy liên tục 5 phút cho chín kỹ.\n4. Cho nước cốt rau chân vịt vào sau cùng khuấy sủi tăm đều rồi tắt bếp dọn cho bé ăn hâm nóng.",
+      "required_ingredients": [
+        "Minced Pork",
+        "Baby Spinach",
+        "Bột gạo"
+      ]
+    }
+  ],
+  "shopping_list": [
+    {
+      "id": 1,
+      "name": "Organic Brown Eggs (12pk)",
+      "category": "Staple",
+      "quantity": "1 unit",
+      "is_checked": true
+    },
+    {
+      "id": 2,
+      "name": "Firm Tofu (400g)",
+      "category": "Staple",
+      "quantity": "1 unit",
+      "is_checked": true
+    },
+    {
+      "id": 3,
+      "name": "Minced Pork (500g)",
+      "category": "Protein",
+      "quantity": "1 unit",
+      "is_checked": true
+    },
+    {
+      "id": 4,
+      "name": "Frozen Beef Chuck (1kg)",
+      "category": "Freezer",
+      "quantity": "1 unit",
+      "is_checked": true
+    },
+    {
+      "id": 5,
+      "name": "Smokey BBQ Sauce (Bottle)",
+      "category": "Staple",
+      "quantity": "1 unit",
+      "is_checked": true
+    },
+    {
+      "id": 6,
+      "name": "Russet Potatoes (2kg bag)",
+      "category": "Produce",
+      "quantity": "1 unit",
+      "is_checked": true
+    }
+  ]
+}
